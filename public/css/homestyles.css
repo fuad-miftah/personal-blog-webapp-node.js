@@ -1,0 +1,189 @@
+body{
+    width: 100%;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+}
+
+.headerContainer{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(87, 79, 79);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.leftbar{
+    flex: 3;
+}
+
+.logo{
+    font-size: 34px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.centerbar{
+    flex: 4;
+}
+
+.searchbar{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.searchInput{
+    border: none;
+    width: 85%;
+    margin-left: 5%;
+}
+
+.searchInput:focus{
+    outline: none;
+}
+
+.rightbar{
+    flex: 5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    margin-right: 15px;
+}
+
+.rightbarLink{
+    margin-right: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.navlinkText{
+    color: white;
+}
+
+.navlinkText:hover{
+    color: rgb(212, 118, 11);
+}
+
+.loginImageContainer{
+    visibility: hidden;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 40px;
+    background-color: rgb(10, 175, 187);
+    text-align: center;
+
+}
+
+/* .loginImage{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 40px;
+} */
+
+.loginT{
+    visibility: visible;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.logoutT{
+    visibility: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+} 
+
+.loginText{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.loginImage{
+    width: 32px;
+    height: 32px;
+}
+
+.logoutContainer{
+    /* background-color: aqua; */
+    
+    top: 70px;
+    right: 0;
+    width: 6%;
+    position: absolute;
+}
+
+.logout{
+    visibility: hidden;
+    width: 100%;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+}
+
+.logout:hover{
+    background-color: rgb(38, 49, 197);;
+}
+
+.aboutme{
+    margin-left: 15%;
+    margin-top: 30px;
+    font-size: 24px;
+    width: 50%;
+}
+
+.postContainer{
+    margin-left: 15%;
+}
+
+.messageContainer{
+    margin-left: 15%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.input{
+    margin: 10px 0px;
+}
+
+.input input{
+    width: 40%;
+    border-radius: 20px;
+}
+
+.input input{
+    width: 40%;
+    border-radius: 20px;
+}
+
+label{
+    width: 90px;
+}
+
+/* footer{
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    margin-top: 15px;
+} */
+
+
+ 
+
